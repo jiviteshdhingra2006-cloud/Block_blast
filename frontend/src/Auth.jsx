@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://block-blast-backend-me4v.onrender.com/api/auth';
 
 function Auth({ onLogin }) {
   const [isLogin, setIsLogin] = useState(true);
